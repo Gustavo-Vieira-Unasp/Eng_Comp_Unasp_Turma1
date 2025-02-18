@@ -3,9 +3,13 @@ from libs.search import *
 def mudar_prioridade():
     chamado = buscar_chamado()
     if chamado:
-        nova_prioridade = int(input("Digite a nova prioridade: "))
-        chamado["Prioridade"] = nova_prioridade
-        print("Prioridade alterada com sucesso.")
+        while True:
+            nova_prioridade = int(input("Digite a nova prioridade: "))
+            if nova_prioridade != 0:
+                chamado["Prioridade"] = nova_prioridade
+                print("Prioridade alterada com sucesso.")
+            else: 
+                print("A nova prioridade não pode ser zero")
     else:
         print("Chamado não encontrado. Não foi possível alterar a prioridade.")
 
