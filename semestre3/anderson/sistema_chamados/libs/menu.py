@@ -3,6 +3,7 @@ from libs.finished import *
 from libs.priority import *
 from libs.register import *
 from libs.search import *
+from libs.statistics import *
 
 def menu():
     while True:
@@ -13,7 +14,8 @@ GERENCIADOR DE CHAMADOS
 2. Procurar chamado
 3. Finalizar chamado
 4. Gerenciar prioridade
-5. Limpar lista
+5. Exbir estatísticas
+6. Limpar lista
 '''
         )
         if opcao == '1':
@@ -25,6 +27,8 @@ GERENCIADOR DE CHAMADOS
         elif opcao == '4':
             return qual_prioridade()
         elif opcao == '5':
+            return exibir_estatisticas()
+        elif opcao == '6':
             return qual_limpeza()
         
 def qual_prioridade():
