@@ -4,6 +4,6 @@ def reverter_lista(chamados):
     chamados = chamados[::-1]
     return print(chamados)
 
-def limpa_lista():
+def limpar_lista():
     chamados = chamados.clear()
     return print(chamados)
