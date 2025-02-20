@@ -1,1 +1,13 @@
 FOCADO EM ORIENTAÇÃO OBJETO
+
+20/02/2025:
+*Reultilizando o projeto feito na aula anterior 'UnaspApp'
+-Criação da classe caneca (/model/caneca)
+-Criação do namespace (/model/caneca)
+-Criação da instância (Program.cs): Caneca caneca = new Caneca()
+-Atribuição a instância (Program.cs): caneca.formatado_da_asa = "Circular"
+
+Atividades:
+*Em sala:
+-Criação da classe cachorro (/model/cachorro)
+-Criação de um cadastro cachorro

@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "semestre3", "semestre3", "{AE4A6B40-5E79-4F08-9CBD-E92DF01C5A73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dudarts", "dudarts", "{67B683AC-AE59-4F1D-AE68-CF9FD61A6A31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnaspApp", "semestre3\dudarts\UnaspApp\UnaspApp.csproj", "{16C6E47A-AA28-4A55-B895-AC243A4EB1C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16C6E47A-AA28-4A55-B895-AC243A4EB1C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16C6E47A-AA28-4A55-B895-AC243A4EB1C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16C6E47A-AA28-4A55-B895-AC243A4EB1C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16C6E47A-AA28-4A55-B895-AC243A4EB1C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{67B683AC-AE59-4F1D-AE68-CF9FD61A6A31} = {AE4A6B40-5E79-4F08-9CBD-E92DF01C5A73}
+		{16C6E47A-AA28-4A55-B895-AC243A4EB1C5} = {67B683AC-AE59-4F1D-AE68-CF9FD61A6A31}
+	EndGlobalSection
+EndGlobal
