@@ -14,7 +14,7 @@ GERENCIADOR DE CHAMADOS
 2. Procurar chamado
 3. Finalizar chamado
 4. Gerenciar prioridade
-5. Exbir estatísticas
+5. Exibir estatísticas
 6. Limpar lista
 '''
         )
@@ -30,12 +30,14 @@ GERENCIADOR DE CHAMADOS
             return exibir_estatisticas()
         elif opcao == '6':
             return qual_limpeza()
-        
+        else:
+            print("Opção inválida, por favor, tente novamente.")
+
 def qual_prioridade():
     while True:
         opcao = input(
 '''
-GENERIAR PRIORIDADE
+GERENCIAR PRIORIDADE
 1. Verificar novos pedidos (prioridade 0)
 2. Mudar prioridades
 3. Ordenar por prioridades
@@ -43,16 +45,18 @@ GENERIAR PRIORIDADE
         )
         if opcao == '1':
             return prioridade_zero()
-        if opcao == '2':
+        elif opcao == '2':
             return mudar_prioridade()
-        if opcao == '3':
+        elif opcao == '3':
             return ordenar_prioridade()
-        
+        else:
+            print("Opção inválida, por favor, tente novamente.")
+
 def qual_limpeza():
     while True:
         opcao = input(
 '''
-GENERIAR LIMPEZA
+GERENCIAR LIMPEZA
 1. Limpar finalizados
 2. Reverter ordem dos chamados
 3. Limpar lista de chamados
@@ -60,7 +64,9 @@ GENERIAR LIMPEZA
         )
         if opcao == '1':
             return finalizados()
-        if opcao == '2':
+        elif opcao == '2':
             return reverter_lista()
-        if opcao == '3':
+        elif opcao == '3':
             return limpar_lista()
+        else:
+            print("Opção inválida, por favor, tente novamente.")
