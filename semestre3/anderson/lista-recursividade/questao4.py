@@ -1,9 +1,4 @@
-def poupanca(investimento):
-    if investimento <= 10000000:
-        tempo = 0
-        if round(investimento) == 10000000:
-            return tempo
-        else: 
-            tempo +=1
-            taxa = 1.05
-            investimento += 500
+def poupanca(dinheiro):
+    dolar = [6.2, 5.7, 5.2, 5.2, 5.3, 5.4, 5.6, 5.6, 5.7, 5.8, 6.0, 5.9]
+    dinheiro += 500
+    mes = 0
