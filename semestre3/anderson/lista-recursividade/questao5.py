@@ -1,3 +1,7 @@
+import sys
+
+sys.setrecursionlimit(200000)
+
 def bitcoin(bitcoins_na_conta = 0, mes = 0):
     valor_bitcoin = 664484
     cotacao_bitcoin = [209410, 212335, 306600, 359693, 316517, 355299, 352500, 368540, 333842, 345411, 409131, 580819]
@@ -24,6 +28,7 @@ def bitcoin(bitcoins_na_conta = 0, mes = 0):
     
     if reais_na_conta >= metabitcoin:
         print(f'Meta de 1 bitcoin atingida em {mes} meses') 
+        return mes, mes*investimento_reais, reais_na_conta
 
     return bitcoin(bitcoins_na_conta, mes)
 
