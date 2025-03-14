@@ -2,14 +2,12 @@ def bitcoin(bitcoins_na_conta = 0, mes = 0):
     valor_bitcoin = 664484
     cotacao_bitcoin = [209410, 212335, 306600, 359693, 316517, 355299, 352500, 368540, 333842, 345411, 409131, 580819]
     investimento_reais = 250
-    rendimento = 0.0005
     meta100k = 100000
     meta1m = 1000000
     metabitcoin = valor_bitcoin
 
     cotacao_atual = cotacao_bitcoin[mes % 12]
     investimento_bitcoin = investimento_reais/cotacao_atual
-    bitcoins_na_conta *= (1+rendimento)
 
     bitcoins_na_conta += investimento_bitcoin
     mes += 1
