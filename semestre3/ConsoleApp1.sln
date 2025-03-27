@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "duarts", "duarts", "{3C5B94A6-61E4-50C7-D23C-1BB0C0087A13}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EscolaApp", "EscolaApp", "{961CFACC-D371-8BD2-2AFB-511B2F5B6632}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "duarts\EscolaApp\ConsoleApp1\ConsoleApp1.csproj", "{739B13BD-AEB1-4B87-8614-2D162A5A1AED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{739B13BD-AEB1-4B87-8614-2D162A5A1AED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{739B13BD-AEB1-4B87-8614-2D162A5A1AED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{739B13BD-AEB1-4B87-8614-2D162A5A1AED}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{739B13BD-AEB1-4B87-8614-2D162A5A1AED}.Debug|x64.Build.0 = Debug|Any CPU
+		{739B13BD-AEB1-4B87-8614-2D162A5A1AED}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{739B13BD-AEB1-4B87-8614-2D162A5A1AED}.Debug|x86.Build.0 = Debug|Any CPU
+		{739B13BD-AEB1-4B87-8614-2D162A5A1AED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{739B13BD-AEB1-4B87-8614-2D162A5A1AED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{739B13BD-AEB1-4B87-8614-2D162A5A1AED}.Release|x64.ActiveCfg = Release|Any CPU
+		{739B13BD-AEB1-4B87-8614-2D162A5A1AED}.Release|x64.Build.0 = Release|Any CPU
+		{739B13BD-AEB1-4B87-8614-2D162A5A1AED}.Release|x86.ActiveCfg = Release|Any CPU
+		{739B13BD-AEB1-4B87-8614-2D162A5A1AED}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{961CFACC-D371-8BD2-2AFB-511B2F5B6632} = {3C5B94A6-61E4-50C7-D23C-1BB0C0087A13}
+		{739B13BD-AEB1-4B87-8614-2D162A5A1AED} = {961CFACC-D371-8BD2-2AFB-511B2F5B6632}
+	EndGlobalSection
+EndGlobal
