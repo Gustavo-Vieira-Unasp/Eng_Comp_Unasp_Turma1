@@ -1,4 +1,5 @@
 namespace Models;
+
 public class Aluno : Pessoa
 {
     private int Matricula;
