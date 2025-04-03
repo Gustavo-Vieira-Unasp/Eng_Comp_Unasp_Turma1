@@ -7,11 +7,11 @@ public void Somatorio()
 {
     void receber_numeros()
     {
-        int numero_inicial = Int32.Parse(Console.ReadLine());
+        int numero_inicial = Int32.Parse(Console.ReadLine() ?? "0");
         while (numero_inicial <= 0)
         {
             Console.WriteLine("O número deve ser maior que 0");
-            numero_inicial = Int32.Parse(Console.ReadLine());
+            numero_inicial = Int32.Parse(Console.ReadLine() ?? "0");
         }
         
         if (numero_inicial == 1)
@@ -45,25 +45,25 @@ public void Relogio()
 {
     void receber_tempo()
     {
-        int hora = Int32.Parse(Console.ReadLine());
-        while (hora < -1 && hora > 23)
+        int hora = Int32.Parse(Console.ReadLine() ?? "0");
+        while (hora < -1 || hora > 23)
         {
             Console.WriteLine("Valor de hora negativos ou superiores a um dia não são aceitos");
-            hora = Int32.Parse(Console.ReadLine());
+            hora = Int32.Parse(Console.ReadLine() ?? "0");
         }
 
-        int minuto = Int32.Parse(Console.ReadLine());
-        while (minuto < -1 && minuto > 59)
+        int minuto = Int32.Parse(Console.ReadLine() ?? "0");
+        while (minuto < -1 || minuto > 59)
         {
             Console.WriteLine("Valor de minuto negativo ou superior a 60 não são aceitos");
-            minuto = Int32.Parse(Console.ReadLine());
+            minuto = Int32.Parse(Console.ReadLine() ?? "0");
         }        
 
-        int segundo = Int32.Parse(Console.ReadLine());
-        while (segundo < -1 && segundo > 59)
+        int segundo = Int32.Parse(Console.ReadLine() ?? "0");
+        while (segundo < -1 || segundo > 59)
         {
             Console.WriteLine("Valor de segundo negativo ou superior a 60 não são aceitos");
-            segundo = Int32.Parse(Console.ReadLine());
+            segundo = Int32.Parse(Console.ReadLine() ?? "0");
         }
 
         int segundos = (hora*3600) + (minuto*60) + segundo;
@@ -77,7 +77,7 @@ public void Livro_Notas()
 {
     void receber_nota()
     {
-        int nota = Int32.Parse(Console.ReadLine());
+        int nota = Int32.Parse(Console.ReadLine() ?? "0");
 
         if (nota >= 90 && nota <= 100)
         {
