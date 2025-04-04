@@ -13,4 +13,9 @@ public class Professor : Pessoa
     {
         Console.WriteLine("Estou ensinando");
     }
+
+    public override void ExibirInfo()
+    {
+        Console.WriteLine($"Nome: {this.Nome}\t\tIdade: {this.Idade}\t\tDiciplina: {this.Diciplina}");
+    } 
 }

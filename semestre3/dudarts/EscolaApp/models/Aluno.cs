@@ -4,7 +4,7 @@ public class Aluno : Pessoa
 {
     private int Matricula;
 
-    public Aluno(int matricula, string nome, int idade) : base(nome, idade)
+    public Aluno(string nome, int idade, int matricula,) : base(nome, idade)
     {
         this.Matricula = matricula;
     }
