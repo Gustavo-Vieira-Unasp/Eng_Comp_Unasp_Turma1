@@ -1,6 +1,6 @@
 namespace Util;
 
-public class menu
+public class Menu
 {
     public static void exibir()
     {

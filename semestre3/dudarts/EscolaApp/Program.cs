@@ -17,6 +17,7 @@ while (true)
             break;
         case 3:
             banco.CadastrarDiretor();
+            break;
         default:
             return;
     }
