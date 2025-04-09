@@ -1,0 +1,14 @@
+C:\Users\user\OneDrive\Desktop\faculdade\codigon em c#\MeuProjetoCSharp\bin\Debug\net9.0\MeuProjetoCSharp.exe
+C:\Users\user\OneDrive\Desktop\faculdade\codigon em c#\MeuProjetoCSharp\bin\Debug\net9.0\MeuProjetoCSharp.deps.json
+C:\Users\user\OneDrive\Desktop\faculdade\codigon em c#\MeuProjetoCSharp\bin\Debug\net9.0\MeuProjetoCSharp.runtimeconfig.json
+C:\Users\user\OneDrive\Desktop\faculdade\codigon em c#\MeuProjetoCSharp\bin\Debug\net9.0\MeuProjetoCSharp.dll
+C:\Users\user\OneDrive\Desktop\faculdade\codigon em c#\MeuProjetoCSharp\bin\Debug\net9.0\MeuProjetoCSharp.pdb
+C:\Users\user\OneDrive\Desktop\faculdade\codigon em c#\MeuProjetoCSharp\obj\Debug\net9.0\MeuProjetoCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\OneDrive\Desktop\faculdade\codigon em c#\MeuProjetoCSharp\obj\Debug\net9.0\MeuProjetoCSharp.AssemblyInfoInputs.cache
+C:\Users\user\OneDrive\Desktop\faculdade\codigon em c#\MeuProjetoCSharp\obj\Debug\net9.0\MeuProjetoCSharp.AssemblyInfo.cs
+C:\Users\user\OneDrive\Desktop\faculdade\codigon em c#\MeuProjetoCSharp\obj\Debug\net9.0\MeuProjetoCSharp.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\Desktop\faculdade\codigon em c#\MeuProjetoCSharp\obj\Debug\net9.0\MeuProjetoCSharp.dll
+C:\Users\user\OneDrive\Desktop\faculdade\codigon em c#\MeuProjetoCSharp\obj\Debug\net9.0\refint\MeuProjetoCSharp.dll
+C:\Users\user\OneDrive\Desktop\faculdade\codigon em c#\MeuProjetoCSharp\obj\Debug\net9.0\MeuProjetoCSharp.pdb
+C:\Users\user\OneDrive\Desktop\faculdade\codigon em c#\MeuProjetoCSharp\obj\Debug\net9.0\MeuProjetoCSharp.genruntimeconfig.cache
+C:\Users\user\OneDrive\Desktop\faculdade\codigon em c#\MeuProjetoCSharp\obj\Debug\net9.0\ref\MeuProjetoCSharp.dll
