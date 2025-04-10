@@ -1,0 +1,15 @@
+C:\Users\user\OneDrive\Desktop\faculdade\git-turma\Eng_Comp_3.Sem._Unasp\semestre3\dudarts\Lista-02\bin\Debug\net9.0\Lista-02.exe
+C:\Users\user\OneDrive\Desktop\faculdade\git-turma\Eng_Comp_3.Sem._Unasp\semestre3\dudarts\Lista-02\bin\Debug\net9.0\Lista-02.deps.json
+C:\Users\user\OneDrive\Desktop\faculdade\git-turma\Eng_Comp_3.Sem._Unasp\semestre3\dudarts\Lista-02\bin\Debug\net9.0\Lista-02.runtimeconfig.json
+C:\Users\user\OneDrive\Desktop\faculdade\git-turma\Eng_Comp_3.Sem._Unasp\semestre3\dudarts\Lista-02\bin\Debug\net9.0\Lista-02.dll
+C:\Users\user\OneDrive\Desktop\faculdade\git-turma\Eng_Comp_3.Sem._Unasp\semestre3\dudarts\Lista-02\bin\Debug\net9.0\Lista-02.pdb
+C:\Users\user\OneDrive\Desktop\faculdade\git-turma\Eng_Comp_3.Sem._Unasp\semestre3\dudarts\Lista-02\obj\Debug\net9.0\Lista-02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\OneDrive\Desktop\faculdade\git-turma\Eng_Comp_3.Sem._Unasp\semestre3\dudarts\Lista-02\obj\Debug\net9.0\Lista-02.AssemblyInfoInputs.cache
+C:\Users\user\OneDrive\Desktop\faculdade\git-turma\Eng_Comp_3.Sem._Unasp\semestre3\dudarts\Lista-02\obj\Debug\net9.0\Lista-02.AssemblyInfo.cs
+C:\Users\user\OneDrive\Desktop\faculdade\git-turma\Eng_Comp_3.Sem._Unasp\semestre3\dudarts\Lista-02\obj\Debug\net9.0\Lista-02.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\Desktop\faculdade\git-turma\Eng_Comp_3.Sem._Unasp\semestre3\dudarts\Lista-02\obj\Debug\net9.0\Lista-02.sourcelink.json
+C:\Users\user\OneDrive\Desktop\faculdade\git-turma\Eng_Comp_3.Sem._Unasp\semestre3\dudarts\Lista-02\obj\Debug\net9.0\Lista-02.dll
+C:\Users\user\OneDrive\Desktop\faculdade\git-turma\Eng_Comp_3.Sem._Unasp\semestre3\dudarts\Lista-02\obj\Debug\net9.0\refint\Lista-02.dll
+C:\Users\user\OneDrive\Desktop\faculdade\git-turma\Eng_Comp_3.Sem._Unasp\semestre3\dudarts\Lista-02\obj\Debug\net9.0\Lista-02.pdb
+C:\Users\user\OneDrive\Desktop\faculdade\git-turma\Eng_Comp_3.Sem._Unasp\semestre3\dudarts\Lista-02\obj\Debug\net9.0\Lista-02.genruntimeconfig.cache
+C:\Users\user\OneDrive\Desktop\faculdade\git-turma\Eng_Comp_3.Sem._Unasp\semestre3\dudarts\Lista-02\obj\Debug\net9.0\ref\Lista-02.dll
