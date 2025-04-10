@@ -25,4 +25,13 @@ class Program
         retangulo.Area = area;
         Console.WriteLine($"A área do seu retângulo é {area}");
     }
+
+    public void CadastrarPessoa()
+    {
+        Console.WriteLine("Digite um nome de usuário: ");
+        string NomeUsuario = Console.ReadLine();
+        Console.WriteLine("Digite sua senha: ");
+        string SenhaUsuario = Console.ReadLine();
+        Conta conta = new Conta(NomeUsuario, SenhaUsuario);
+    }
 }
