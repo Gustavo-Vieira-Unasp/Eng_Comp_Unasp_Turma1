@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnaspApp", "semestre3\dudar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lista-02", "..\Lista-02\Lista-02.csproj", "{922398D9-5245-46A3-BAE3-EAEBBCA4D2C0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lista-03", "..\..\..\..\Lista-03\Lista-03.csproj", "{76D2D0C2-A512-4405-B1C1-3C3F50EEEBF5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,18 @@ Global
 		{922398D9-5245-46A3-BAE3-EAEBBCA4D2C0}.Release|x64.Build.0 = Release|Any CPU
 		{922398D9-5245-46A3-BAE3-EAEBBCA4D2C0}.Release|x86.ActiveCfg = Release|Any CPU
 		{922398D9-5245-46A3-BAE3-EAEBBCA4D2C0}.Release|x86.Build.0 = Release|Any CPU
+		{76D2D0C2-A512-4405-B1C1-3C3F50EEEBF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76D2D0C2-A512-4405-B1C1-3C3F50EEEBF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76D2D0C2-A512-4405-B1C1-3C3F50EEEBF5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{76D2D0C2-A512-4405-B1C1-3C3F50EEEBF5}.Debug|x64.Build.0 = Debug|Any CPU
+		{76D2D0C2-A512-4405-B1C1-3C3F50EEEBF5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{76D2D0C2-A512-4405-B1C1-3C3F50EEEBF5}.Debug|x86.Build.0 = Debug|Any CPU
+		{76D2D0C2-A512-4405-B1C1-3C3F50EEEBF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76D2D0C2-A512-4405-B1C1-3C3F50EEEBF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76D2D0C2-A512-4405-B1C1-3C3F50EEEBF5}.Release|x64.ActiveCfg = Release|Any CPU
+		{76D2D0C2-A512-4405-B1C1-3C3F50EEEBF5}.Release|x64.Build.0 = Release|Any CPU
+		{76D2D0C2-A512-4405-B1C1-3C3F50EEEBF5}.Release|x86.ActiveCfg = Release|Any CPU
+		{76D2D0C2-A512-4405-B1C1-3C3F50EEEBF5}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
