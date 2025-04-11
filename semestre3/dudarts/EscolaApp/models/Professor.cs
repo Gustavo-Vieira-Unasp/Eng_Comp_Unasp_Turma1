@@ -9,9 +9,16 @@ public class Professor : Pessoa
     {
         this.Diciplina = diciplina;
     }
+
+
     public void Ensinar()
 
     {
-         Console.WriteLine("Ensinando a não ficar pobre.....");
+         Console.WriteLine("Ensinando");
+    }
+
+    public override void ExibirInfo()
+    {
+        Console.WriteLine($"Nome :{this.Nome}\t\tIdade {this.Idade}\t\tDiciplina: {this.Diciplina}");
     }
 }

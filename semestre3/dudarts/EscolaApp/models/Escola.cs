@@ -18,22 +18,36 @@ public class Escola
         this.DIretoria = diretor;
     }
 
-    public void AdicionarProfessor(Pessoa professor)
-    {
-        this.Professor.add(professor);
+    // public void AdicionarProfessor(Pessoa professor)
+    // {
+    //     this.Professor.add(professor);
 
-    }
+    // }
 
-    public void AdicionarTurma(Turma turma)
-       public void ListarAlunos()
+    // public void AdicionarTurma(Turma turma)
+    //    public void ListarAlunos()
+    // {
+    //     Console; WriteLine($"Turma: {this.Nome}"\n);
+    //     foreach (Aluno aluno in this.Alunos)
+    //     {
+    //         Alunos.ExibirInfo();
+    //     }
+    // }
+
+    public void ListarTurma()
     {
-        Console; WriteLine($"Turma: {this.Nome}"\n);
-        foreach (Aluno aluno in this.Alunos)
+        Console.WriteLine($"Turma: {this.Nome}");
+        foreach (Turma turma in this.Turmas)
         {
-            Alunos.ExibirInfo();
+            Console.WriteLine(turma.getNome());
         }
     }
 
+    public void ExibirInfo()
+    {
+        Console.WriteLine(this.Nome);
+        Console.WriteLine(this.Endereco);
+    }
 
 
 }

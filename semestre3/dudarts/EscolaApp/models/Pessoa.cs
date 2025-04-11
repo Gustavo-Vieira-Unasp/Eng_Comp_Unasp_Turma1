@@ -11,9 +11,8 @@ public class Pessoa{
         this.Nome = nome;
         this.Idade = idade;
     }
-    public void estudar ()
+    public virtual void ExibirInfo()
     {
-        Console.WriteLine($"Nome :{this.Nome}");
-        Console.WriteLine($"Idade {this.Idade}");
+        Console.WriteLine($"Nome :{this.Nome}\t\t Idade {this.Idade}");
     }
 }
