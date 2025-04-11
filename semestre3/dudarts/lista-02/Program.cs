@@ -33,5 +33,11 @@ class Program
         Console.WriteLine("Digite sua senha: ");
         string SenhaUsuario = Console.ReadLine();
         Conta conta = new Conta(NomeUsuario, SenhaUsuario);
+        List<Conta> contas = new List<Conta>();
+        contas.Add(conta);
+        foreach (var c in contas)
+        {
+            Console.WriteLine($"Nome: {NomeUsuario} \n Senha: {SenhaUsuario}");
+        }
     }
 }
