@@ -1,7 +1,9 @@
+using Interfaces;
 namespace Classes;
 
-public class Gato : Animal
+public class Gato : IAnimal
 {
+    private bool EstaDormindo { get; set; }
     public override void EmitirSom()
     {
         Console.WriteLine("Miau miau");
@@ -10,5 +12,10 @@ public class Gato : Animal
     public override void Dormir()
     {
         Console.WriteLine("Estou indo dormir");
+    }
+    public void IrDormir()
+    {
+
+        Console.WriteLine("Ir dormir");
     }
 }
