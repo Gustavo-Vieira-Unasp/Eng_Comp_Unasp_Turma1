@@ -1,13 +1,12 @@
 from src.No.no import No
 from src.Pilha.pilha import Pilha
 
-no = No("Dudarts")
-pilha = Pilha(no)
+pilha = Pilha()
 
-no2 = No("Lucas Eduardo")
-pilha.inserir(no2)
-
-no3 = No("Pedro Eduardo")
-pilha.inserir(no3)
+pilha.inserir(No("Dudarts"))
+pilha.inserir(No("Lucas Eduardo"))
+pilha.inserir(No("Pedro Eduardo"))
 
 pilha.listar()
+removido = pilha.remover()
+print(f"Removido: {removido}")

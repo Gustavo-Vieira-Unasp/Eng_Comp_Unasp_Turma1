@@ -6,3 +6,8 @@ class No():
     def __str__(self):
         return str(self.valor)
     
+    def imprimir(self):
+        print(self.valor)
+    
+    def temProximo(self):
+        return self.proximo != None

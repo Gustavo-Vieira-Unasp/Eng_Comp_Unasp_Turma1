@@ -1,27 +1,47 @@
 from src.No.no import No
 
 class Pilha():
-    def __init__(self, no:No):
-        self.base = no
-        self.tamanho = 1
+    def __init__(self):
+        self.base: No = None
+        self.tamanho = 0
 
     def inserir(self, no:No):
-        self.base.proximo = no
+        if  self.taVazio():
+            self.base = no
+        else:
+            self.obterTopo().proximo = no
         self.tamanho += 1
 
-    def obterProximo(self, no:No):
-        if no.proximo == None:
-            return no.valor
-        else:
-            print(self.obterProximo(no.proximo))
-            print(no.valor)
-            
+    def _listarTodos(self, no:No):
+        if no.temProximo():
+            self._listarTodos(no.proximo)
+        no.imprimir()
 
     def listar(self):
-        print(self.obterProximo(self.base))
+        self._listarTodos(self.base)
 
-    def exibirTopo(self, base:No):
-        if base.proximo == None:
-            return base.valor
-        else:
-            self.exibirTopo(base.proximo)
+    def obterTopo(self):
+        atual = self.base
+        
+        while True:
+            if not atual.temProximo():
+                return atual
+            else:
+                atual = atual.proximo
+
+    def tamanho(self):
+        return self.tamanho
+
+    def taVazio(self):
+        return self.tamanho == 0
+    
+    def remover(self) -> No:
+        atual = self.base
+
+        while True: 
+            if not atual.proximo.temProximo():
+                ultimo = atual.proximo
+                atual.proximo = None
+                self.tamanho -= 1
+                return ultimo
+            else: atual = atual.proximo
